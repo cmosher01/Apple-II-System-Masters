@@ -1,0 +1,28 @@
+original31sysmas.nib & .d13
+	original nibble image downloaded from asimov, and denibblized version
+
+stock31init.nib & .d13
+	nibble image and de-nibblized version of disk image exactly as created
+	by a stock DOS 3.1 INIT command (in emulator)
+
+stock31mastercreated.nib & .d13
+	nibble image and de-nibblized version of disk image exactly as created
+	by a stock DOS 3.1 MASTER CREATE (in emulator)
+
+
+
+clean31sysmas_stock_rawdos.d13 & .nib
+	Used apple2src to build DOS 3.1 onto disk (apple2src/build/dos/dos3X/dos310/dos.d13 & .nib)
+	into T$0S$0-T$2S$A (no HELLO program name)
+	Built with VERSION=310 and NODELAY
+	Valid catalog track $11 (no files, all sectors free except T$0S$0-T$2S$A, T$11)
+	zeroes elsewhere (no I/O errors)
+	volume #254
+	Copied (using Copy ][ Plus 5.5) all files from original DOS 3.1 System Master.
+	Renamed HELLO to normal characters instead of inverse.
+	Boots HELLO program.
+	Locked all files.
+	Fixed file sizes.
+	Note that the RAWDOS file on this disk is the stock RAWDOS file, so if you use
+	MASTER CREATE from this disk to create a new disk, that new disk will have the
+	stock DOS on it, not the clean built version.
