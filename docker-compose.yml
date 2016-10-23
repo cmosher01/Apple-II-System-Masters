@@ -1,0 +1,7 @@
+---
+version: '2'
+services:
+  apple2sysmas:
+    build: .
+    ports:
+      - "8080:80"
