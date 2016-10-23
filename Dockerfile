@@ -49,6 +49,7 @@ COPY ./dos321 ./dos321
 COPY ./dos330 ./dos330
 COPY ./dos331 ./dos331
 COPY ./dos332 ./dos332
+COPY index.html ./
 RUN chown -R app: *
 
 USER app
